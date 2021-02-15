@@ -1,0 +1,6 @@
+#include<iolpc2148.h>
+void main(void)
+{
+  
+  
+}

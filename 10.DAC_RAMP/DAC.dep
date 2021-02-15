@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1418430678</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$TOOLKIT_DIR$\examples\NXP\LPC214x\IAR-LPC-214X\AudioDevice\config\Flash.icf</file>
+      <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+      <file>$PROJ_DIR$\dac.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\DAC.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\dac.r79</file>
+      <file>$PROJ_DIR$\Debug\Exe\DAC.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\DAC.out</file>
+      <file>$TOOLKIT_DIR$\inc\NXP\iolpc2148.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dac.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dac.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\DAC.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 3 11 2 1 4 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1337349061</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\16_bit_add.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\UART0.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\16_bit_add.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\16_bit_add.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\16_bit_add.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\16_bit_add.hex</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\16_bit_add.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\UART0.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
